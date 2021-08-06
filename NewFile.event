@@ -1,0 +1,4 @@
+PUSH
+ORG 0x807110 + (0x4B * 84) + 0x12
+BYTE 7
+POP
