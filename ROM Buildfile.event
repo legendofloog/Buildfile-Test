@@ -7,4 +7,4 @@
 ORG FreeSpace
 
 ALIGN 16
-#include "Table Installer.event"
+#include "Tables/Table Installer.event"
