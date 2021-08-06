@@ -1,4 +1,10 @@
-#include NewFile.event
+#define FreeSpace 0x1000000
+#define EndSpace 0xefb2e0
+
+
+#include "EAstdlib.event"
+
+ORG FreeSpace
 
 ALIGN 16
-#include Table Installer.event
+#include "Table Installer.event"
